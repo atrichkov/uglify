@@ -7,7 +7,7 @@ var compressor = require('node-minify');
 // Using Google Closure Compiler 
 compressor.minify({
   compressor: 'gcc',
-  input: 'def.js',
-  output: 'def.min.js',
+  input: 'sample.js',
+  output: 'sample.min.js',
   callback: function (err, min) {}
 });
